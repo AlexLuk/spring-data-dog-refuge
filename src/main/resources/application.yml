@@ -1,0 +1,16 @@
+spring:
+    application:
+        name: SpringDataDogRefuge
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        username: admin
+        password: postgresql
+        url: ${DB_URL:jdbc:postgresql://localhost:5432/postgres}
+    sql:
+        init:
+            mode: never
+    jpa:
+        properties:
+            hibernate:
+                default_schema: refuge
+                dialect: org.hibernate.dialect.PostgreSQLDialect
