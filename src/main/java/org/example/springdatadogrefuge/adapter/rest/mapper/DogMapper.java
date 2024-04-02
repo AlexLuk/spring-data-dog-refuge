@@ -1,4 +1,4 @@
-package org.example.springdatadogrefuge.adapter.rest.controller;
+package org.example.springdatadogrefuge.adapter.rest.mapper;
 
 import org.example.springdatadogrefuge.application.service.dto.DogDto;
 import org.example.springdatadogrefuge.domain.Dog;

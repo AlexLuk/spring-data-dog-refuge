@@ -1,6 +1,7 @@
-package org.example.springdatadogrefuge.adapter.rest.controller;
+package org.example.springdatadogrefuge.adapter.rest;
 
 import lombok.RequiredArgsConstructor;
+import org.example.springdatadogrefuge.adapter.rest.mapper.DogMapper;
 import org.example.springdatadogrefuge.application.service.DogService;
 import org.example.springdatadogrefuge.application.service.dto.DogDto;
 import org.example.springdatadogrefuge.domain.Dog;
@@ -8,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RequiredArgsConstructor
 @RestController
-@RequestMapping("/dog")
+@RequestMapping("/dogs")
 public class DogController {
     private final DogService dogService;
     private final DogMapper dogMapper;

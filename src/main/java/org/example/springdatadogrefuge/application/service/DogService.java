@@ -2,7 +2,8 @@ package org.example.springdatadogrefuge.application.service;
 
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
-import org.example.springdatadogrefuge.adapter.rest.controller.DogMapper;
+import org.example.springdatadogrefuge.adapter.repositpry.DogRepository;
+import org.example.springdatadogrefuge.adapter.rest.mapper.DogMapper;
 import org.example.springdatadogrefuge.application.service.dto.DogDto;
 import org.example.springdatadogrefuge.domain.Dog;
 import org.springframework.stereotype.Service;
